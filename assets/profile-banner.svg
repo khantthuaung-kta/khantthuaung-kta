@@ -1,32 +1,133 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="510" viewBox="0 0 1200 510" fill="none">
   <defs>
-    <linearGradient id="bg" x1="42" y1="24" x2="1150" y2="320" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#10152B"/>
-      <stop offset="0.55" stop-color="#17233D"/>
-      <stop offset="1" stop-color="#241B3D"/>
+    <linearGradient id="bg" x1="72" y1="16" x2="1124" y2="518" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090C12"/>
+      <stop offset=".54" stop-color="#111527"/>
+      <stop offset="1" stop-color="#171126"/>
     </linearGradient>
-    <linearGradient id="glow" x1="845" y1="28" x2="1085" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#62E6C5"/>
-      <stop offset="1" stop-color="#8B7CFF"/>
+    <linearGradient id="edge" x1="115" y1="50" x2="1090" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7FF69" stop-opacity=".48"/>
+      <stop offset=".5" stop-color="#53E8DD" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#A47AFF" stop-opacity=".48"/>
     </linearGradient>
-    <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="matrix(0 195 -230 0 1020 70)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#8877FF" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#8877FF" stop-opacity="0"/>
+    <linearGradient id="lime" x1="220" y1="215" x2="380" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D5FF86"/>
+      <stop offset="1" stop-color="#79F5B0"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#67FFF0"/>
+      <stop offset="1" stop-color="#53A9FF"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C5A5FF"/>
+      <stop offset="1" stop-color="#7B6EFF"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="0" cy="0" r="1" gradientTransform="matrix(0 220 -460 0 822 154)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#705BFF" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#705BFF" stop-opacity="0"/>
     </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="skewY(-18)">
+      <path d="M34 0H0V34" stroke="#A2B0D6" stroke-opacity=".08"/>
+    </pattern>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="14"/>
+      <feOffset dy="16"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".38"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen"><path d="M711 119 1049 64v197l-338 58z"/></clipPath>
   </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="24" fill="url(#orb)"/>
-  <path d="M0 257C185 210 273 318 462 270s263-76 424-25 210 24 314-17" stroke="#A2B6D8" stroke-opacity=".12"/>
-  <path d="M0 279c180-48 270 58 457 10s263-76 424-25 210 24 319-17" stroke="#A2B6D8" stroke-opacity=".08"/>
-  <circle cx="1000" cy="160" r="102" stroke="url(#glow)" stroke-opacity=".28"/>
-  <circle cx="1000" cy="160" r="72" stroke="url(#glow)" stroke-opacity=".4"/>
-  <circle cx="1000" cy="160" r="42" fill="url(#glow)" fill-opacity=".12" stroke="url(#glow)" stroke-opacity=".75"/>
-  <path d="M978 161h16l10-20 13 40 10-20h17" stroke="#8AF0D1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="1110" cy="83" r="4" fill="#62E6C5"/>
-  <circle cx="898" cy="237" r="3" fill="#A99DFF"/>
-  <text x="78" y="111" fill="#9EEBD7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="4">HELLO, WORLD</text>
-  <text x="74" y="176" fill="#F4F7FF" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">Khant Thu Aung</text>
-  <text x="78" y="216" fill="#B8C5DC" font-family="Arial, Helvetica, sans-serif" font-size="19">Odoo Developer  /  Python Builder</text>
-  <rect x="78" y="250" width="38" height="3" rx="1.5" fill="#62E6C5"/>
-  <text x="128" y="257" fill="#8799B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2">LEARNING · BUILDING · ITERATING</text>
+  <rect width="1200" height="510" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="510" rx="28" fill="url(#haze)"/>
+  <path d="M28 0v510M1172 0v510" stroke="url(#edge)" stroke-opacity=".32"/>
+  <path d="M0 386 1200 179v331H0z" fill="url(#grid)" opacity=".8"/>
+  <path d="M0 386 1200 179" stroke="url(#edge)" stroke-opacity=".18"/>
+  <g opacity=".42" stroke="#A5B5D9" stroke-width=".7">
+    <path d="m61 404 435-75M61 430l577-100M61 456l719-126M61 482l861-126M61 508l1003-126"/>
+    <path d="m180 510 40-128m160 128 40-128m160 128 40-128m160 128 40-128m160 128 40-128"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace">
+    <text x="78" y="80" fill="#B9FF70" font-size="13" letter-spacing="4">INDEPENDENT DEVELOPER / YANGON, MM</text>
+    <text x="74" y="155" fill="#F4F6FC" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="700" letter-spacing="-2">Khant Thu Aung</text>
+    <text x="80" y="190" fill="#AEB9CF" font-family="Arial, Helvetica, sans-serif" font-size="19">Odoo Developer  /  Python Builder</text>
+    <text x="80" y="216" fill="#75839E" font-family="Arial, Helvetica, sans-serif" font-size="16">Exploring React + mobile integration</text>
+    <rect x="80" y="243" width="12" height="2" rx="1" fill="#B9FF70"/>
+    <text x="103" y="248" fill="#B9C4D8" font-size="11" letter-spacing="2">IDEAS INTO USEFUL SOFTWARE</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(0 0)">
+      <path d="m710 120 344-58 21 13-345 60z" fill="#252C40" stroke="#65708B" stroke-opacity=".55"/>
+      <path d="m711 119 338-57v202l-338 59z" fill="#111722" stroke="#8B91AA" stroke-opacity=".8"/>
+      <path d="m711 119 338-57v30l-338 58z" fill="#20293A"/>
+      <circle cx="730" cy="131" r="3" fill="#FF7388"/>
+      <circle cx="743" cy="129" r="3" fill="#FFD166"/>
+      <circle cx="756" cy="127" r="3" fill="#9EF07D"/>
+      <g clip-path="url(#screen)" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">
+        <text x="738" y="166" fill="#C69CFF">class</text><text x="774" y="166" fill="#E5ECF7"> UsefulBuilder:</text>
+        <text x="752" y="188" fill="#80DDF2">def</text><text x="777" y="188" fill="#DCE8F7"> ship_idea(self):</text>
+        <text x="766" y="210" fill="#AAB7CA"># turn curiosity into code</text>
+        <text x="766" y="232" fill="#B9FF70">return</text><text x="806" y="232" fill="#E6ECF5"> "something useful"</text>
+        <path d="M766 244h91" stroke="#58647A" stroke-dasharray="3 5"/>
+        <text x="766" y="263" fill="#6C7A93">python  ·  odoo  ·  ideas</text>
+      </g>
+      <path d="m711 322 338-58 48 32-353 62z" fill="#293247" stroke="#707B98" stroke-opacity=".58"/>
+      <path d="m749 324 254-44 22 14-255 45z" fill="#131A28" stroke="#9BA8C0" stroke-opacity=".22"/>
+      <path d="m767 328 34-6m13-3 34-6m12-2 34-6m14-3 35-6m13-2 35-6m14-2 34-6" stroke="#A4B3CE" stroke-opacity=".38" stroke-width="2" stroke-linecap="round"/>
+      <path d="m815 350 115-20" stroke="#63F1D1" stroke-opacity=".65" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
+    </g>
+  </g>
+
+  <g transform="translate(0 0)">
+    <path d="m991 326 58-10 42 25-59 11z" fill="#2F3850" stroke="#A89BFF" stroke-opacity=".7"/>
+    <path d="m991 326 41 26v52l-41-26z" fill="#20283A" stroke="#8C7BFF" stroke-opacity=".7"/>
+    <path d="m1032 352 59-11v52l-59 11z" fill="#282344" stroke="#8C7BFF" stroke-opacity=".7"/>
+    <path d="m1005 335 43-8 22 13-44 8z" fill="#A88AFF" fill-opacity=".34"/>
+    <path d="m1005 335 21 13v25l-21-13z" fill="#8E78FF" fill-opacity=".28"/>
+    <path d="m1026 348 44-8v25l-44 8z" fill="#BAA2FF" fill-opacity=".3"/>
+    <text x="1010" y="369" fill="#E4DAFF" font-family="ui-monospace, monospace" font-size="10">&lt;/&gt;</text>
+  </g>
+
+  <g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="5s" repeatCount="indefinite"/>
+      <path d="m593 128 87-15 35 21-88 16z" fill="#172B34" stroke="#63EED4" stroke-opacity=".75"/>
+      <path d="m593 128 34 22v49l-34-22z" fill="#10242B" stroke="#53CDBB" stroke-opacity=".55"/>
+      <path d="m627 150 88-16v49l-88 16z" fill="#13242B" stroke="#53CDBB" stroke-opacity=".65"/>
+      <path d="m609 137 21 13-11 7-21-13z" fill="#9BFFE9" fill-opacity=".92"/>
+      <path d="m630 150 11-2v18l-11 2z" fill="#61E7CF" fill-opacity=".72"/>
+      <path d="m643 146 44-8" stroke="#A0F3E2" stroke-opacity=".65"/>
+    </g>
+  </g>
+
+  <g>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 11;0 0" dur="6s" repeatCount="indefinite"/>
+      <path d="m1082 115 56-10 28 17-57 10z" fill="#2A2142" stroke="#BA9BFF" stroke-opacity=".75"/>
+      <path d="m1082 115 27 17v38l-27-17z" fill="#211B36" stroke="#9B7AFF" stroke-opacity=".65"/>
+      <path d="m1109 132 57-10v38l-57 10z" fill="#261E3B" stroke="#9B7AFF" stroke-opacity=".7"/>
+      <text x="1090" y="138" fill="#D7C6FF" font-family="ui-monospace, monospace" font-size="12">{ }</text>
+    </g>
+  </g>
+
+  <g fill="#C9FF78" filter="url(#glow)">
+    <circle cx="1125" cy="219" r="2"><animate attributeName="opacity" values=".25;1;.25" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="649" cy="94" r="2"><animate attributeName="opacity" values="1;.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1094" cy="293" r="2"><animate attributeName="opacity" values=".3;1;.3" dur="2.7s" repeatCount="indefinite"/></circle>
+  </g>
+  <path d="M78 444h1044" stroke="url(#edge)" stroke-opacity=".5"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="2">
+    <text x="80" y="474" fill="#B9FF70">BUILD</text>
+    <text x="132" y="474" fill="#70809D">/</text>
+    <text x="150" y="474" fill="#8FEBDD">AUTOMATE</text>
+    <text x="247" y="474" fill="#70809D">/</text>
+    <text x="266" y="474" fill="#C5A5FF">ITERATE</text>
+    <text x="1010" y="474" fill="#75839E">[ 01 / 04 ]</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="508" rx="27" stroke="url(#edge)" stroke-opacity=".42"/>
 </svg>
