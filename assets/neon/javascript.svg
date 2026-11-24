@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="125" height="41" viewBox="0 0 125 41" role="img">
+<title>JavaScript</title>
+<defs><linearGradient id="bg" x2="1" y2=".8"><stop stop-color="#0e1427"/><stop offset="1" stop-color="#1d1834"/></linearGradient></defs>
+<rect x=".5" y=".5" width="124" height="40" rx="12" fill="url(#bg)" stroke="#554773"/>
+<rect x="8.00" y="7.00" width="27.00" height="27.00" rx="7.00" fill="#2b2549"/><path d="M8 6l-6 6 6 6m8-12l6 6-6 6m-2-15l-4 18" transform="translate(12 11) scale(.8)" fill="none" stroke="#ffdc91" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/><text x="43" y="26" fill="#ecedfa" font-family="system-ui, sans-serif" font-size="14" font-weight="650" text-anchor="start">JavaScript</text>
+</svg>

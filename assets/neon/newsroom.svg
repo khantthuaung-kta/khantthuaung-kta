@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345" height="71" viewBox="0 0 345 71" role="img">
+<title>The Newsroom</title>
+<defs><linearGradient id="bg" x2="1" y2=".8"><stop stop-color="#0e1427"/><stop offset="1" stop-color="#1d1834"/></linearGradient></defs>
+<rect x=".5" y=".5" width="344" height="70" rx="12" fill="url(#bg)" stroke="#554773"/>
+<rect x="15.00" y="15.00" width="41.00" height="41.00" rx="9.00" fill="#2d2749"/><path d="M4 4h16v16H4zM7 8h10M7 12h4m2 0h4m-10 4h10" transform="translate(24 24)" fill="none" stroke="#81eaff" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><text x="68" y="33" fill="#ecedfa" font-family="system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="start">The Newsroom</text><text x="69" y="51" fill="#81eaff" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="start">N2 NEWS READER DEMO</text><text x="325" y="34" fill="#81eaff" font-family="system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="end">01</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345" height="71" viewBox="0 0 345 71" role="img">
+<title>The Signal Tower</title>
+<defs><linearGradient id="bg" x2="1" y2=".8"><stop stop-color="#0e1427"/><stop offset="1" stop-color="#1d1834"/></linearGradient></defs>
+<rect x=".5" y=".5" width="344" height="70" rx="12" fill="url(#bg)" stroke="#554773"/>
+<rect x="15.00" y="15.00" width="41.00" height="41.00" rx="9.00" fill="#2d2749"/><path d="M4 4l17 7-7 3-3 7-7-17zm7 10l7-5" transform="translate(24 24)" fill="none" stroke="#ef93ff" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/><text x="68" y="33" fill="#ecedfa" font-family="system-ui, sans-serif" font-size="18" font-weight="700" text-anchor="start">The Signal Tower</text><text x="69" y="51" fill="#ef93ff" font-family="system-ui, sans-serif" font-size="10" font-weight="700" text-anchor="start">TECHPULSE AI</text><text x="325" y="34" fill="#ef93ff" font-family="system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="end">02</text>
+</svg>

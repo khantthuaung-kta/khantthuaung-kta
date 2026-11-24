@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="41" viewBox="0 0 160 41" role="img">
+<title>PostgreSQL</title>
+<defs><linearGradient id="bg" x2="1" y2=".8"><stop stop-color="#0e1427"/><stop offset="1" stop-color="#1d1834"/></linearGradient></defs>
+<rect x=".5" y=".5" width="159" height="40" rx="12" fill="url(#bg)" stroke="#554773"/>
+<rect x="8.00" y="7.00" width="27.00" height="27.00" rx="7.00" fill="#2b2549"/><path d="M4 6a8 4 0 1 0 16 0 8 4 0 1 0-16 0m0 0v12a8 4 0 0 0 16 0V6M4 12a8 4 0 0 0 16 0" transform="translate(12 11) scale(.8)" fill="none" stroke="#87bdfd" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/><text x="43" y="26" fill="#ecedfa" font-family="system-ui, sans-serif" font-size="14" font-weight="650" text-anchor="start">PostgreSQL</text>
+</svg>
