@@ -1,33 +1,57 @@
 <div align="center">
-  <img src="./assets/neon-dev-city.gif" width="960" alt="Neon Dev City · Khant Thu Aung · Odoo &amp; Python Developer. Three isometric towers lit by moving pink and cyan trails." />
+  <img src="./assets/neon-dev-city.gif" width="960" alt="Neon Dev City · Khant Thu Aung · Odoo and Python Developer" />
 </div>
 
-# Hi, I’m Khant Thu Aung
+<div align="center">
+  <h1>Khant Thu Aung</h1>
+  <p><strong>Odoo Developer · Python Builder</strong></p>
+  <p>I build practical ERP features, migrations, and automation.<br />Currently exploring React and Expo for mobile apps.</p>
+  <p>
+    <a href="https://khantthuaung.pages.dev/en">Portfolio</a>
+    &nbsp;·&nbsp;
+    <a href="https://www.linkedin.com/in/khant-thu-aung/">LinkedIn</a>
+    &nbsp;·&nbsp;
+    <a href="https://github.com/khantthuaung-kta?tab=repositories">Explore my projects</a>
+  </p>
+</div>
 
-I build with **Odoo and Python**, with a focus on ERP features, migrations, and practical automation. I’m also exploring React and Expo for mobile apps.
+## Featured projects
 
-## Tech stack
+<div align="center">
+  <a href="https://github.com/khantthuaung-kta/n2-news-reader-demo"><img src="./assets/neon/newsroom.svg" width="32%" alt="The Newsroom — N2 News Reader Demo" /></a>
+  <a href="https://github.com/khantthuaung-kta/techpulse-ai"><img src="./assets/neon/signal.svg" width="32%" alt="The Signal Tower — TechPulse AI" /></a>
+  <a href="https://github.com/khantthuaung-kta/movie-highlight-extractor"><img src="./assets/neon/screening.svg" width="32%" alt="The Screening Room — Movie Highlight Extractor" /></a>
+</div>
 
-[![Odoo](./assets/neon/odoo.svg)](https://www.odoo.com/documentation/)
-[![Python](./assets/neon/python.svg)](https://docs.python.org/3/)
-[![PostgreSQL](./assets/neon/postgresql.svg)](https://www.postgresql.org/docs/)
-[![GitHub Actions](./assets/neon/actions.svg)](https://docs.github.com/en/actions)
+## Tools I use
 
-[![JavaScript](./assets/neon/javascript.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![React](./assets/neon/react.svg)](https://react.dev/)
-[![Expo](./assets/neon/expo.svg)](https://docs.expo.dev/)
+<div align="center">
+  <a href="https://www.odoo.com/documentation/"><img src="./assets/neon/odoo.svg" alt="Odoo" /></a>
+  <a href="https://docs.python.org/3/"><img src="./assets/neon/python.svg" alt="Python" /></a>
+  <a href="https://www.postgresql.org/docs/"><img src="./assets/neon/postgresql.svg" alt="PostgreSQL" /></a>
+  <a href="https://docs.github.com/en/actions"><img src="./assets/neon/actions.svg" alt="GitHub Actions" /></a>
+  <br />
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="./assets/neon/javascript.svg" alt="JavaScript" /></a>
+  <a href="https://react.dev/"><img src="./assets/neon/react.svg" alt="React" /></a>
+  <a href="https://docs.expo.dev/"><img src="./assets/neon/expo.svg" alt="Expo" /></a>
+</div>
 
-## Find me
+## Code snapshot
 
-[![LinkedIn](./assets/neon/linkedin.svg)](https://www.linkedin.com/in/khant-thu-aung/)
-[![GitHub repositories](./assets/neon/github.svg)](https://github.com/khantthuaung-kta?tab=repositories)
+<div align="center">
+  <img src="./assets/neon/language-mix.svg" width="550" alt="Language mix across four featured repositories: Python, JavaScript, and CSS" />
+</div>
 
-[Browse my repositories](https://github.com/khantthuaung-kta?tab=repositories) · [GitHub contribution activity](https://github.com/khantthuaung-kta#js-contribution-activity-description)
+<div align="center">
+  <a href="https://github.com/khantthuaung-kta#js-contribution-activity-description">GitHub contribution activity</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/khantthuaung-kta?tab=repositories">All repositories</a>
+</div>
 
 <!-- Repositories and the contribution calendar are managed by GitHub. No project list, graph export, or scheduled job to maintain here. -->
 
 <details>
-<summary>Banner assets</summary>
+<summary>Portfolio artwork</summary>
 
 [Still banner](./assets/neon-dev-city-still.png) · [Banner source](./tools/render_neon_city.py)
 
