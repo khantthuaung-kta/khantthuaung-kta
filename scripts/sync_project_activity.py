@@ -63,7 +63,7 @@ def main() -> int:
         "| --- | --- | --- |",
     ]
     for item, label in items:
-        lines.append(f"| [\`{item['name']}\`]({item['url']}) | {label} | {item['pushed'] or 'Unknown'} |")
+        lines.append(f"| [`{item['name']}`]({item['url']}) | {label} | {item['pushed'] or 'Unknown'} |")
     lines.extend(["", END])
 
     updated = re.sub(
