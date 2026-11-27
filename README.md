@@ -7,15 +7,13 @@
   <p><strong>Odoo Developer · Python Builder</strong></p>
   <p>I build practical ERP features, migrations, and automation.<br />Currently exploring React and Expo for mobile apps.</p>
   <p>
-    <a href="https://khantthuaung.pages.dev/en">Portfolio</a>
-    &nbsp;·&nbsp;
-    <a href="https://www.linkedin.com/in/khant-thu-aung/">LinkedIn</a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/khantthuaung-kta?tab=repositories">Explore my projects</a>
+    <a href="https://khantthuaung.pages.dev/en"><img src="./assets/neon/portfolio.svg" height="41" alt="Visit my portfolio" /></a>
+    <a href="https://www.linkedin.com/in/khant-thu-aung/"><img src="./assets/neon/linkedin.svg" height="41" alt="Connect on LinkedIn" /></a>
+    <a href="https://github.com/khantthuaung-kta?tab=repositories"><img src="./assets/neon/github.svg" height="41" alt="Explore my GitHub projects" /></a>
   </p>
 </div>
 
-## Featured projects
+## ✨ Featured projects
 
 <div align="center">
   <a href="https://github.com/khantthuaung-kta/n2-news-reader-demo"><img src="./assets/neon/newsroom.svg" width="32%" alt="The Newsroom — N2 News Reader Demo" /></a>
@@ -23,7 +21,7 @@
   <a href="https://github.com/khantthuaung-kta/movie-highlight-extractor"><img src="./assets/neon/screening.svg" width="32%" alt="The Screening Room — Movie Highlight Extractor" /></a>
 </div>
 
-## Tools I use
+## 🛠️ Tools I use
 
 <div align="center">
   <a href="https://www.odoo.com/documentation/"><img src="./assets/neon/odoo.svg" alt="Odoo" /></a>
@@ -36,16 +34,16 @@
   <a href="https://docs.expo.dev/"><img src="./assets/neon/expo.svg" alt="Expo" /></a>
 </div>
 
-## Code snapshot
+## 📊 Code snapshot
 
 <div align="center">
   <img src="./assets/neon/language-mix.svg" width="550" alt="Language mix across four featured repositories: Python, JavaScript, and CSS" />
 </div>
 
 <div align="center">
-  <a href="https://github.com/khantthuaung-kta#js-contribution-activity-description">GitHub contribution activity</a>
+  <a href="https://github.com/khantthuaung-kta#js-contribution-activity-description">🌱 GitHub contribution activity</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/khantthuaung-kta?tab=repositories">All repositories</a>
+  <a href="https://github.com/khantthuaung-kta?tab=repositories">🚀 All repositories</a>
 </div>
 
 <!-- Repositories and the contribution calendar are managed by GitHub. No project list, graph export, or scheduled job to maintain here. -->
