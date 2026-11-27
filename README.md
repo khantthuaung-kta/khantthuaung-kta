@@ -73,6 +73,12 @@ next_chapter: Growing as a software engineer in Japan
   <sub>A few experiments from my GitHub. More projects live in <a href="https://github.com/khantthuaung-kta?tab=repositories">all repositories</a>.</sub>
 </p>
 
+### `> project --activity`
+
+<!-- AUTO-PROJECT-ACTIVITY:START -->
+_Public project activity sync is ready. The scheduled workflow will fill this section with real repository push dates._
+<!-- AUTO-PROJECT-ACTIVITY:END -->
+
 ### `> ping khant`
 
 <div align="center">
