@@ -28,10 +28,16 @@ exploring: React, React Native, Expo
 next_chapter: Growing as a software engineer in Japan
 ```
 
-- 🧩 I work on **business workflows, ERP customizations, system integrations, and migrations**.
-- 🐍 I enjoy turning real-world problems into **practical Python solutions**.
-- 🌱 Currently exploring **mobile development and modern web experiences**.
-- 🇯🇵 Learning Japanese and working toward my long-term software engineering goals.
+<div align="center">
+  <h3>⚡ Turning complex ideas into code that works.</h3>
+  <p>
+    <strong>ERP engineering</strong> is my craft. <strong>Python</strong> is my playground.<br/>
+    From business-critical integrations to tiny tools that make life easier — I like building things that matter.
+  </p>
+  <p>
+    <code>🔭 exploring web & mobile</code> &nbsp; <code>🇯🇵 next stop: Japan</code>
+  </p>
+</div>
 
 ### `> tech --stack`
 
