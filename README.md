@@ -82,7 +82,16 @@ next_chapter: Growing as a software engineer in Japan
 ### `> project --activity`
 
 <!-- AUTO-PROJECT-ACTIVITY:START -->
-_Public project activity sync is ready. The scheduled workflow will fill this section with real repository push dates._
+<div align="center">
+  <sub>Selected public projects · last repository push dates (UTC), not a coding streak</sub>
+</div>
+
+| Project | Focus | Last push (UTC) |
+| --- | --- | --- |
+| [`techpulse-ai`](https://github.com/khantthuaung-kta/techpulse-ai) | Tech news automation | 2026-11-28 |
+| [`nihongo-companion-site`](https://github.com/khantthuaung-kta/nihongo-companion-site) | Japanese learning platform | 2026-11-28 |
+| [`n2-news-reader-demo`](https://github.com/khantthuaung-kta/n2-news-reader-demo) | News reader demo | 2026-11-24 |
+
 <!-- AUTO-PROJECT-ACTIVITY:END -->
 
 ### `> ping khant`
